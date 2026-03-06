@@ -1,3 +1,5 @@
+
+```bash
 # 1. Install dependencies
 npm install
 
@@ -12,31 +14,7 @@ npm run demo
 
 # Or compile + test in one shot
 npm run build
-
-# EIP-2771 — Trusted Forwarder Meta-Transactions
-
-## Getting started
-
-```bash
-# 1. Install dependencies
-npm install --legacy-peer-deps
-
-# 2. Compile contracts  (uses bundled solc — no network required)
-npm run compile
-
-# 3. Run all 27 tests
-npm test
-
-# 4. Run the live demo
-npm run demo
-
-# Or compile + test in one shot
-npm run build
 ```
-
-> **Note on `--legacy-peer-deps`**: hardhat v2 plugins ship with the `hh2`
-> tag and have overlapping peer-dep declarations.  The flag is required once
-> at install time; everything works normally afterwards.
 
 ---
 
